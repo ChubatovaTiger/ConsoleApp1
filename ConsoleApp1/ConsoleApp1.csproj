@@ -14,6 +14,6 @@
 		</PostBuildEvent>
 	</ItemDefinitionGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="npm install&#xD;&#xA;" />
+    <Exec Command="call 1.bat&#xD;&#xA;" />
   </Target>
 </Project>
