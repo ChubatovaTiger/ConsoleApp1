@@ -1,1 +1,1 @@
-echo 'body : { erro : Not found },'
+echo 'body : { error : Not found },'
