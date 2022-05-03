@@ -1,4 +1,4 @@
-<Project Sdk="C:\Program Files\dotnet\sdk\5.0.200\Sdks\Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
