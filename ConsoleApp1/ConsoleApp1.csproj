@@ -13,7 +13,7 @@
 			<Message>installing npm pachages from postbuildevent</Message>
 		</PostBuildEvent>
 	</ItemDefinitionGroup>
-	<PropertyGroup>
-		<PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
-	</PropertyGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="npm install&#xD;&#xA;" />
+  </Target>
 </Project>
