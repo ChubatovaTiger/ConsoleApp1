@@ -13,8 +13,6 @@
 			<Message>installing npm pachages from postbuildevent</Message>
 		</PostBuildEvent>
 	</ItemDefinitionGroup>
-	
-		<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
 	</PropertyGroup>
 </Project>
