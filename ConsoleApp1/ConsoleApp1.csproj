@@ -1,4 +1,4 @@
-<Project Sdk="C:\Program Files\dotnet\sdk\6.0.202">
+<Project Sdk="Microsoft.NET.sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
